@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #dc3545;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.accordion-button {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #dc3545;
+    color: white;
+}
